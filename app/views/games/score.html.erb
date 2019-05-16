@@ -1,0 +1,11 @@
+<h1>Score</h1>
+
+<div class="result">
+  <p>
+    <% @tried_letters.each do |letter| %>
+      <span class="letter"><%= letter %></span>
+    <% end %>
+  </p>
+</div>
+
+<p><%= link_to "Do it again", new_path %></p>
